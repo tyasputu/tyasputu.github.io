@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Sedgwick Ave';
+}
+
+.container {
+    width: 500%;
+    /* height: 100vs;  */
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(Aset/background.png); */
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+    margin: 0 0 0 0;
+    transition-duration: 0.25s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    transition-duration: 0.25s;
+}
+
+nav ul li a:hover {
+    color: #ffbd66;
+    font-size: 13.5px;
+}
+
+.row {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    color: #0a0a0a;
+    margin: 50px 0 0 0;
+}
+
+h2 {
+    color: #000000;
+    font-size: 85px;
+    font-family: "Hey October";
+    font-weight: normal;
+    line-height: 120px;
+    text-align: left;
+}
+
+h3 {
+    color: #ffbd66;
+    font-size: 85px;
+    font-family: "Hey October";
+    font-weight: normal;
+    line-height: 120px;
+    text-align: left;
+    margin-top: -40px;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+    margin-top: -40px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
